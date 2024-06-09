@@ -1,51 +1,30 @@
 # Technologies
 
-## MVC, Rest
-
 ## Back end
 
 - Java 17
 - SpringBoot
 - Maven
 
-## Front end
+# Front end
 
 - HTML / CSS / JS / TypeScript
 - ReactJS
 - Node.Js, Yarn
 
-# How execute the project
+## How execute the project
 
-# Clone repository
+- git clone https://github.com/devmian/Analytics-Test.git
 
-git clone https://github.com/devmian/Analytics-Test.git
+# Back end
 
-## Back end
+- pre-requirement: Java 17
+- cd backend
+- copy and paste the keys to backend/src/main/resources/application.properties
+- ./mvnw spring-boot:run
 
-pre-requirement: Java 17
+# Front end web
 
-# Get into back end
-
-cd backend
-
-# key
-
-copy and paste the keys to backend/src/main/resources/application.properties
-
-# Run
-
-./mvnw spring-boot:run
-
-## Front end web
-
-# Get into back end
-
-cd frontend
-
-# Install dependency
-
-yarn
-
-# Run
-
-yarn start
+- cd frontend
+- yarn
+- yarn start
