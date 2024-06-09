@@ -1,6 +1,6 @@
 /* eslint-disable @typescript-eslint/no-explicit-any */
 import React from 'react';
-import { makeRequest } from '../utils/request';
+import { baseURL, makeRequest } from '../utils/request';
 import dayjs from 'dayjs';
 
 export type StockData = {
@@ -99,7 +99,7 @@ export const StockProvider: React.FC<Props> = ({ children, initialState }) => {
           paramsQuery.append('endDate', endDate);
         }
 
-        const response = await fetch('http://localhost:8080/api/stream?' + paramsQuery);
+        const response = await fetch(`${baseURL}/api/stream?${paramsQuery}`);
 
         if (response.body) {
           const accessData = response.body.pipeThrough(new TextDecoderStream()).getReader();

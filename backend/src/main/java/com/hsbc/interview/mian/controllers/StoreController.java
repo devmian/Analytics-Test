@@ -1,6 +1,5 @@
 package com.hsbc.interview.mian.controllers;
 
-import org.springframework.ai.openai.OpenAiChatClient;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestParam;
