@@ -1,0 +1,25 @@
+.container {
+  padding: 25px 15px 50px 30px;
+  display: flex;
+  flex-direction: column;
+
+  .title {
+    font-size: 24px;
+    color: var(--light-color);
+    margin-bottom: 5px;
+  }
+
+  .dataContainer {
+    height: auto;
+
+    .chart {
+      width: 100%;
+      height: 300px;
+    }
+
+    article {
+      margin-top: 20px;
+      white-space: pre-line;
+    }
+  }
+}
