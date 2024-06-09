@@ -8,6 +8,7 @@
 
 ### Front end
 
+- node v16.18.1
 - HTML / CSS / JS / TypeScript
 - ReactJS
 - Node.Js, Yarn
